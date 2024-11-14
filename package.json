@@ -1,0 +1,22 @@
+{
+  "name": "optimism-swap-dapp",
+  "version": "1.0.0",
+  "description": "A dApp to swap tokens on Optimism using Uniswap V3",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "build": "cd client && npm run build",
+    "start": "cd client && npm start"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "ethers": "^5.5.4",
+    "dotenv": "^10.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web3modal": "^1.9.0",
+    "@walletconnect/web3-provider": "^1.6.6"
+  },
+  "devDependencies": {
+    "hardhat": "^2.6.4"
+  }
+}
